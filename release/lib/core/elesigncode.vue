@@ -73,6 +73,9 @@ export default {
         },
         setPen(pen){
             return this.signcodeEx.setPen(pen)
+        },
+        clear(){
+            this.signcodeEx.clear()
         }
     },
     watch:{
